@@ -9,7 +9,7 @@ public class HelloResource {
 
     @GET
     public String hello() {
-        return "Servus OpenShift";
+        return "Servus OpenShift "+Instant.now();
     }
 
 }
