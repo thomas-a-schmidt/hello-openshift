@@ -34,5 +34,6 @@ spec:
       volumes:
       - name: config-volume
         configMap:
-          name: hello-openshift-config      restartPolicy: Always
+          name: hello-openshift-config
+      restartPolicy: Always
 ---
